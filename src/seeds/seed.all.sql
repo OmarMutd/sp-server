@@ -86,14 +86,14 @@ VALUES
 (`Rocky Road Brownie`,'desserts', '$4.25', ''),
 (`Tiramisu`,'desserts', '$4.25', ''),
 
-INSERT INTO beverages (title, category, price, url)
+INSERT INTO beverages (title, category, price)
 VALUES
-(`2-Liter`,'beverage', '$2.99', ''),
-(`6-Pack`,'beverage', '$3.99', ''),
-(`Single Can`,'beverage', '$1.29', ''),
-(`Iced Tea`,'beverage', '$1.99', ''),
-(`Coffee`,'beverage', '$1.50', ''),
-(`Large Fountain`,'beverage', '$1.99', ''),
+(`2-Liter`,'beverage', '$2.99'),
+(`6-Pack`,'beverage', '$3.99'),
+(`Single Can`,'beverage', '$1.29'),
+(`Iced Tea`,'beverage', '$1.99'),
+(`Coffee`,'beverage', '$1.50'),
+(`Large Fountain`,'beverage', '$1.99'),
 
 
 
