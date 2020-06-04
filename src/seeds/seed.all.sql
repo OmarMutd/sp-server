@@ -51,7 +51,7 @@ VALUES
 (`Crispy Chicken Salad`,'salad', '$7.99', 'Lettuce, Tomato, Cucumbers, Onions, Black Olives, & Croutons.', ''),
 (`Chef Salad`,'salad', '$8.99', 'Lettuce, Tomatoes, Onions, Cucumbers, Green Peppers, Black Olives, Ham, Eggs, Cheese & Croutons', ''),
 
-INSERT INTO sub (title, category, price, ingredients, url)
+INSERT INTO subs (title, category, price, ingredients, url)
 VALUES
 (`*1. - Ham & Cheese`,'sub', '$7.99', '', ''),
 (`*2. - Submarine Sub`,'sub', '$7.99', '', ''),
@@ -84,7 +84,7 @@ VALUES
 (`New York Cheesecake`,'desserts', '$3.95', ''),
 (`Cannoli (1)`,'desserts', '$2.99', ''),
 (`Rocky Road Brownie`,'desserts', '$4.25', ''),
-(`Tiramisu`,'desserts', '$4.25', ''),
+(`Tiramisu`,'desserts', '$4.25', 'https://imgur.com/LZsdgPr'),
 
 INSERT INTO beverages (title, category, price)
 VALUES
