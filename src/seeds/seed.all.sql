@@ -10,18 +10,18 @@ VALUES
 
 INSERT INTO gourmet (title, category, ingredients, url)
 VALUES
-(`Margarita`,'gourmet', ''),
-(`Polio's Classic`,'gourmet', ''),
-(`Olivia's Favorite`,'gourmet', ''),
-(`Johnny Boy (Chicken Alfredo)`,'gourmet', ''),
-(`Furio's (Supreme)`,'gourmet', ''),
-(`BBQ Grilled Chicken`,'gourmet', ''),
-(`Garden Veggies`,'gourmet', ''),
-(`Carciofi (Artichoke Deluxe`,'gourmet', ''),
-(`Hawaiian (Five-O)`,'gourmet', ''),
-(`Al Capone's (All Meat)`,'gourmet', ''),
-(`Tony's Favorite (Deluxe)`,'gourmet', ''),
-(`Mediterranean`,'gourmet', ''),
+(`Margarita`,'gourmet', 'Olive oil, garlic butter, tomatoes, mozzarella & fresh basil.', ''),
+(`Polio's Classic`,'gourmet', 'Grilled Chicken, tomatoes, garlic, mozzarella & fresh basil.', ''),
+(`Olivia's Favorite`,'gourmet', 'Grilled chicken, tomatoes, spinach, mozzarella & freshbasil.', ''),
+(`Johnny Boy (Chicken Alfredo)`,'gourmet', 'Grilled Chicken, Alfredo sauce, parmesan & mozzarella.', ''),
+(`Furio's (Supreme)`,'gourmet', 'Pepperoni, sausage, green peppers, onions, mushrooms & mozzarella.', ''),
+(`BBQ Grilled Chicken`,'gourmet', 'Grilled Chicken sauteed in bbq sauce, covered with mozzarella cheese.', ''),
+(`Garden Veggies`,'gourmet', 'Tomatoes, onions, green peppers, mushrooms, black olives, basil & mozzarella.', ''),
+(`Carciofi (Artichoke Deluxe`,'gourmet', 'Artichokes, tomatoes, onions, green peppers, black olives, mozzarella.', ''),
+(`Hawaiian (Five-O)`,'gourmet', 'Ham, pineapple, parmesan, provolone & mozzarella cheese.', ''),
+(`Al Capone's (All Meat)`,'gourmet', 'Pepperoni, sausage, ham, beef, parmesan & mozzarella.', ''),
+(`Tony's Favorite (Deluxe)`,'gourmet', 'Pepperoni, ham, sausage, beef, green peppers, onions, black olives, jalapenos, mushrooms Sopranos red sauce, creamy sauce, basil & mozzarella.', ''),
+(`Mediterranean`,'gourmet', 'Tomatoes, mushrooms, spinach, green olives, red onions, Artichoke hearts, feta cheese, olive oil, basil, mozzarella.', ''),
 
 
 INSERT INTO pasta (title, category, price, ingredients, url)
@@ -54,20 +54,24 @@ VALUES
 INSERT INTO subs (title, category, price, ingredients, url)
 VALUES
 (`*1. - Ham & Cheese`,'sub', '$7.99', '', ''),
-(`*2. - Submarine Sub`,'sub', '$7.99', '', ''),
-(`*3. - Deluxe`,'sub', '$7.99', '', ''),
-(`*4. - Combo Meat`,'sub', '$7.99', '', ''),
+(`*2. - Submarine Sub`,'sub', '$7.99', 'Pepperoni, Ham.', ''),
+(`*3. - Deluxe`,'sub', '$7.99', 'Pepperoni, Ham, Mushrooms.', ''),
+(`*4. - Combo Meat`,'sub', '$7.99', 'Ham, Pepperoni, Beef & Sausage.', ''),
 (`*5. - Turkey Sub`,'sub', '$7.99', '', ''),
 (`*6. - Grilled Chicken Sub`,'sub', '$7.99', '', ''),
-(`*7. - Veggie Sub`,'sub', '$7.99', '', ''),
-(`8. - Eggplant or Chicken or Veal Parmesan`,'sub', '$7.99', '', ''),
-(`9. - Meatball Cheese Sub`,'sub', '$7.99', '', ''),
-(`10. - Philly Cheese Steak Sub`,'sub', '$7.99', '', ''),
+(`*7. - Veggie Sub`,'sub', '$7.99', 'Black olives, Green olives, Tomatoes, Mushrooms, Green Peppers, Onions.', ''),
+(`8. - Eggplant or Chicken or Veal Parmesan`,'sub', '$7.99', `Covered with Soprano's red sauce and mozzarella.`, ''),
+(`9. - Meatball Cheese Sub`,'sub', '$7.99', `Covered with Soprano's red sauce and mozzarella.`, ''),
+(`10. - Philly Cheese Steak Sub`,'sub', '$7.99', 'Green peppers, Onions & Mushrooms.', ''),
 
-INSERT INTO wings_and_things (title, category, price, ingredients, url)
+INSERT INTO wings_and_things (title, category, url)
 VALUES
-(`Hot Mild Lemon Pepper BBQ Teriyaki Hot Garlic`,'wings', '$7.99', '', ''),
-
+(`Hot Mild Lemon Pepper BBQ Teriyaki Hot Garlic`,'wings', '', ''),
+(`Mozzarella Sticks`,'things', '', ''),
+(`Fried Mushrooms`,'things', '', ''),
+(`Bread Sticks`,'things', '', ''),
+(`Sicilian Cheese Squares`,'things', '', ''),
+(`Fries`,'things', '', ''),
 
 
 
