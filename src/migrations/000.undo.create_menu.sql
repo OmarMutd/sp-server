@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS gourmet;
+DROP TABLE IF EXISTS pasta;
+DROP TABLE IF EXISTS soups_and_salads;
+DROP TABLE IF EXISTS subs;
+DROP TABLE IF EXISTS wings_and_things;
+DROP TABLE IF EXISTS more_for_kids;
+DROP TABLE IF EXISTS desserts;
+DROP TABLE IF EXISTS beverages;
