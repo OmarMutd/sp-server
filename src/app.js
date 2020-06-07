@@ -31,12 +31,15 @@ app.use(function errorHandler(error, req, res, next) {
   res.status(500).json(response)
 })
 
+
 app
   .use(morgan(morganOption))
   .use(helmet())
   .use(cors())
-  .use('./api/pasta', pastaRouter)
 
+
+
+app.use('/api/pasta', pastaRouter)
 app.use(errorHandler)
 
 

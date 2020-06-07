@@ -22,8 +22,9 @@ pastaRouter
     .get((req, res, next) => {
         const knexInstance = req.app.get('db')
         PastaService.getAllPasta(knexInstance)
-            .then(pasta => res.json(pasta.map(serializePasta)))
-            .catch(next)
+            .then(pasta => {
+                res.json(pasta.map(serializePasta))
+            })
     })
 
 module.exports = pastaRouter;
