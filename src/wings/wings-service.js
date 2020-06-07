@@ -1,5 +1,5 @@
 const WingsService = {
-    getAllPizzas(knex) {
+    getAllWings(knex) {
         return knex.select('*').from('wings_and_things')
     },
     getCategories(knex) {

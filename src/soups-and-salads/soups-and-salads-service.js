@@ -1,5 +1,5 @@
 const SoupSaladService = {
-    getAllPizzas(knex) {
+    getAllSoupSalads(knex) {
         return knex.select('*').from('soups_and_salads')
     },
     getCategories(knex) {

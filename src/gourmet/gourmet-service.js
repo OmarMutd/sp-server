@@ -1,5 +1,5 @@
 const GourmetService = {
-    getAllPizzas(knex) {
+    getAllGourmet(knex) {
         return knex.select('*').from('gourmet')
     },
     getCategories(knex) {

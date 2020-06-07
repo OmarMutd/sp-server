@@ -1,5 +1,5 @@
 const SubService = {
-    getAllPizzas(knex) {
+    getAllSubs(knex) {
         return knex.select('*').from('subs')
     },
     getCategories(knex) {

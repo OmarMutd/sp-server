@@ -6,6 +6,13 @@ const helmet = require('helmet');
 const { NODE_ENV } = require('./config');
 const errorHandler = require('./error-handler');
 const pastaRouter = require('./pasta/pasta-router');
+const dessertsRouter = require('./desserts/desserts-router');
+const gourmetRouter = require('./gourmet/gourmet-router');
+const kidsRouter = require('./kids/kids-router');
+const soupsaladRouter = require('./soups-and-salads/soups-and-salads-router');
+const subRouter = require('./sub/sub-router');
+const wingsRouter = require('./wings/wings-router');
+
 
 
 const app = express()
@@ -40,6 +47,13 @@ app
 
 
 app.use('/api/pasta', pastaRouter)
+app.use('/api/desserts', dessertsRouter)
+app.use('/api/gourmet', gourmetRouter)
+app.use('/api/kids', kidsRouter)
+app.use('/api/soupsalad', soupsaladRouter)
+app.use('/api/sub', subRouter)
+app.use('/api/wings', wingsRouter)
+
 app.use(errorHandler)
 
 

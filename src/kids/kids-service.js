@@ -1,5 +1,5 @@
 const KidsService = {
-    getAllPizzas(knex) {
+    getAllKids(knex) {
         return knex.select('*').from('more_for_kids')
     },
     getCategories(knex) {
