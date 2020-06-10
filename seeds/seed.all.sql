@@ -74,20 +74,20 @@ VALUES
 
 INSERT INTO desserts (title, category, price, url)
 VALUES
-('Brownie (plain)','desserts', '$2.99', ''),
-('New York Cheesecake','desserts', '$3.95', ''),
-('Cannoli (1)','desserts', '$2.99', ''),
-('Rocky Road Brownie','desserts', '$4.25', ''),
-('Tiramisu','desserts', '$4.25', 'https://imgur.com/LZsdgPr');
+('Brownie (plain)','desserts', '$2.99', 'https://i.imgur.com/qAX1QsL.jpg'),
+('New York Cheesecake','desserts', '$3.95', 'https://i.imgur.com/yErl1kX.jpg'),
+('Cannoli (1)','desserts', '$2.99', 'https://i.imgur.com/OlZgYmr.jpg'),
+('Rocky Road Brownie','desserts', '$4.25', 'https://i.imgur.com/sYqLG5d.jpg'),
+('Tiramisu','desserts', '$4.25', 'https://i.imgur.com/LZsdgPr.jpg');
 
-INSERT INTO beverages (title, category, price)
+INSERT INTO beverages (title, category, price, url)
 VALUES
-('2-Liter', 'beverage', '$2.99'),
-('6-Pack', 'beverage', '$3.99'),
-('Single can', 'beverage', '$1.29'),
-('Iced Tea', 'beverage', '$1.99'),
-('Coffee', 'beverage', '$1.50'),
-('Large Fountain', 'beverage', '$1.99');
+('2-Liter', 'beverage', '$2.99', 'https://i.imgur.com/Zq55K3F.jpg'),
+('6-Pack', 'beverage', '$3.99', 'https://i.imgur.com/uqKGZGR.jpg'),
+('Single can', 'beverage', '$1.29', 'https://imgur.com/gallery/Ld2eRNb'),
+('Iced Tea', 'beverage', '$1.99', 'https://imgur.com/gallery/LLClIsC'),
+('Coffee', 'beverage', '$1.50', 'https://i.imgur.com/o0R0ktF.jpg'),
+('Large Fountain', 'beverage', '$1.99', 'https://i.imgur.com/Pthll9M.jpg');
 
 
 

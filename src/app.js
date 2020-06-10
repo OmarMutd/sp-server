@@ -12,6 +12,7 @@ const kidsRouter = require('./kids/kids-router');
 const soupsaladRouter = require('./soups-and-salads/soups-and-salads-router');
 const subRouter = require('./sub/sub-router');
 const wingsRouter = require('./wings/wings-router');
+const beverageRouter = require('./beverages/beverages-router');
 
 
 
@@ -53,6 +54,7 @@ app.use('/api/kids', kidsRouter)
 app.use('/api/soupsalad', soupsaladRouter)
 app.use('/api/sub', subRouter)
 app.use('/api/wings', wingsRouter)
+app.use('/api/beverages', beverageRouter)
 
 app.use(errorHandler)
 
