@@ -12,6 +12,7 @@ const serializeBeverage = beverage => ({
     title: beverage.title,
     category: beverage.category,
     price: beverage.price,
+    url: beverage.url
 })
 
 
