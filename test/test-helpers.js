@@ -156,7 +156,7 @@ function makePastaArray() {
     ]
 }
 
-function makeGourtmetArray() {
+function makeGourmetArray() {
     return [
         {
             "id": 37,
@@ -653,7 +653,7 @@ function seeds(db, pasta, gourmet, soups_and_salads, subs, wings_and_things, mor
 
 function makeFixtures() {
     const testPasta = makePastaArray()
-    const testGourmet = makeGourtmetArray()
+    const testGourmet = makeGourmetArray()
     const testSoupSalad = makeSoupSaladArray()
     const testSubs = makeSubsArray()
     const testWings = makeWingsArray()
@@ -669,7 +669,7 @@ module.exports = {
     seeds,
     cleanTables,
     makePastaArray,
-    makeGourtmetArray,
+    makeGourmetArray,
     makeSoupSaladArray,
     makeSubsArray,
     makeWingsArray,
