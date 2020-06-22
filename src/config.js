@@ -1,6 +1,6 @@
 module.exports = {
   PORT: process.env.PORT || 8000,
   NODE_ENV: process.env.NODE_ENV || 'development',
-  DATABASE_URL: process.env.DATABASE_URL || 'postgresql://postgres@localhost/tbm',
-  TEST_DB_URL: process.env.TEST_DB_URL || 'postgresql://postgres@localhost/tbm-test',
+  DATABASE_URL: process.env.DATABASE_URL || 'postgres://dunder_mifflin@localhost/sopranos-server',
+  TEST_DATABASE_URL: process.env.TEST_DATABASE_URL || 'postgres://dunder_mifflin@localhost/sopranos-server-test',
 }
