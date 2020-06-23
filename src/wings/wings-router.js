@@ -11,6 +11,7 @@ const serializePasta = wing => ({
     id: wing.id,
     title: wing.title,
     category: wing.category,
+    multiprice: wing.multiprice,
     url: wing.url
 })
 

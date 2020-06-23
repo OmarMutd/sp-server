@@ -18,7 +18,7 @@ INSERT INTO pasta (title, category, price, ingredients, url)
 VALUES
 ('Lasagna','pasta', '$9.99', 'Cheese, Veggie, or Meat Sauce.', 'https://i.imgur.com/2RVqrKL.jpg'),
 ('Cheese or Beef Ravioli','pasta', '$9.99', '', 'https://i.imgur.com/hGNwY6e.jpg'),
-('Eggplant, Veal or Chicken Parmigiana','pasta', '$9.99', '', 'https://i.imgur.com/JVyZ4KE.jpg'),
+('Eggplant/Veal/Chicken Parmigiana','pasta', '$9.99', '', 'https://i.imgur.com/JVyZ4KE.jpg'),
 ('Manicotti','pasta', '$9.99', '', 'https://i.imgur.com/v4H0BPV.jpg'),
 ('Cannelloni','pasta', '$9.99', '', 'https://i.imgur.com/gipX1pd.jpg'),
 ('Spaghetti or Fettuccini','pasta', '$9.99', 'Red sauce, Meat Sauce, or Alfredo.', 'https://i.imgur.com/urw9tKt.jpg'),
@@ -27,8 +27,8 @@ VALUES
 ('Baked Ziti','pasta', '$9.99', 'Ricotta, Meat Sauce, Red Sauce, or Alfredo.', 'https://i.imgur.com/TPa1HJj.jpg'),
 ('Linguini Toscana','pasta', '$9.99', 'Grilled chicken, Mushrooms, Spinach, Garlic, Sautéed in a lemon garlic butter sauce.', 'https://i.imgur.com/HL2Widw.jpg'),
 ('Sopranos Murphy Chicken','pasta', '$9.99', 'Chicken, Tomatoes, Mushrooms, Green Peppers, Onions & Penne Pasta.', 'https://i.imgur.com/dPVURU5.jpg'),
-('Chicken Florentines','pasta', '$9.99', 'Grilled Chicken, Tomatoes, Spinach, Mushrooms, Garlic, Sautéed with creamy sauce,Topped with mozzarella, Served with Penne Pasta.', 'https://i.imgur.com/d4bokpY.jpg'),
-('Angel Hair Chicken Mushroom Alfredo','pasta', '$9.99', 'Grilled Chicken, Mushrooms, Sautéed in Alfredo sauce, Mozzarella Cheese.', 'https://i.imgur.com/qTqQRCm.jpg'),
+('Chicken Florentines','pasta', '$9.99', 'Grilled Chicken, Tomatoes, Spinach, Mushrooms, Garlic, Sautéed with creamy sauce,mozzarella, Penne Pasta.', 'https://i.imgur.com/fJTsrSx.jpg'),
+('Angel Hair Chicken Mushroom','pasta', '$9.99', 'Grilled Chicken, Mushrooms, Sautéed in Alfredo sauce, Mozzarella Cheese.', 'https://i.imgur.com/qTqQRCm.jpg'),
 ('Chicken Carciofi','pasta', '$9.99', 'Grilled chicken, Artichokes, Sautéed with Soprano’s red & creamy sauce.', 'https://i.imgur.com/T1QBgre.jpg');
 
 INSERT INTO soups_and_salads (title, category, price, ingredients, url)
@@ -50,25 +50,25 @@ VALUES
 ('*5. - Turkey Sub','sub', '$7.99', '', 'https://i.imgur.com/bc0UydV.jpg'),
 ('*6. - Grilled Chicken Sub','sub', '$7.99', '', 'https://i.imgur.com/P7j5zNB.jpg'),
 ('*7. - Veggie Sub','sub', '$7.99', 'Black olives, Green olives, Tomatoes, Mushrooms, Green Peppers, Onions.', 'https://i.imgur.com/fG1EArt.jpg'),
-('8. - Eggplant or Chicken or Veal Parmesan','sub', '$7.99', 'Covered with Soprano''s red sauce and mozzarella.', 'https://i.imgur.com/O2tqq8D.jpg'),
+('8. - Eggplant/Chicken/Veal Parmesan','sub', '$7.99', 'Covered with Soprano''s red sauce and mozzarella.', 'https://i.imgur.com/O2tqq8D.jpg'),
 ('9. - Meatball Cheese Sub','sub', '$7.99', 'Covered with Soprano''s red sauce and mozzarella.', 'https://i.imgur.com/fX266HN.jpg'),
 ('10. - Philly Cheese Steak Sub','sub', '$7.99', 'Green peppers, Onions & Mushrooms.', 'https://i.imgur.com/3NLZp8j.jpg');
 
-INSERT INTO wings_and_things (title, category, url)
+INSERT INTO wings_and_things (title, category, multiprice, url)
 VALUES
-('Hot Mild Lemon Pepper BBQ Teriyaki Hot Garlic','wings', 'https://i.imgur.com/HKu17ML.jpg'),
-('Mozzarella Sticks','things', 'https://i.imgur.com/sE6a4zZ.jpg'),
-('Fried Mushrooms','things', 'https://i.imgur.com/pvl5KPq.jpg'),
-('Bread Sticks','things', 'https://i.imgur.com/BIp7QOP.jpg'),
-('Sicilian Cheese Squares','things', 'https://i.imgur.com/hEsmHPn.jpg'),
-('Fries','things', 'https://i.imgur.com/aCfbHou.jpg');
+('Hot Mild Lemon Pepper BBQ Teriyaki Hot Garlic','wings', '8($7.99) | 10($9.99) | 12($11.99) | 16($14.99)', 'https://i.imgur.com/HKu17ML.jpg'),
+('Mozzarella Sticks','things', '8($5.99) | 10($6.99) | 12($8.99) | 16($9.99)', 'https://i.imgur.com/sE6a4zZ.jpg'),
+('Fried Mushrooms','things', '8($5.99) | 10($6.99) | 12($8.99) | 16($9.99)', 'https://i.imgur.com/pvl5KPq.jpg'),
+('Bread Sticks','things', '8($2.99) | 10($3.99) | 12($4.99)', 'https://i.imgur.com/BIp7QOP.jpg'),
+('Sicilian Cheese Squares','things', '8($7.99) | 10($9.99) | 12($11.99)', 'https://i.imgur.com/hEsmHPn.jpg'),
+('Fries','things', 'small($1.99) | large($2.99)', 'https://i.imgur.com/aCfbHou.jpg');
 
 
 
 INSERT INTO more_for_kids (title, category, price, url)
 VALUES
 ('Kids Cheese or Pepperoni Pizza','kids', '$4.99', 'https://i.imgur.com/fFgozCX.jpg'),
-('Kids Lasagna, Spaghetti OR Angel Hair','kids', '$4.99', 'https://i.imgur.com/T43I8na.jpg'),
+('Kids Lasagna/Spaghetti/Angel Hair','kids', '$4.99', 'https://i.imgur.com/T43I8na.jpg'),
 ('Chicken Fingers with French Fries','kids', '$4.99', 'https://i.imgur.com/jU6zzGA.jpg'),
 ('Chicken Nuggets with French Fries','kids', '$4.99','https://i.imgur.com/scNkLBB.jpg');
 
