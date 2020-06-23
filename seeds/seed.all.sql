@@ -1,45 +1,45 @@
 INSERT INTO gourmet (title, category, ingredients, url)
 VALUES
-('Margarita','gourmet', 'Olive oil, garlic butter, tomatoes, mozzarella & fresh basil.', ''),
-('Polio''s Classic','gourmet', 'Grilled Chicken, tomatoes, garlic, mozzarella & fresh basil.', ''),
-('Olivia''s Favorite','gourmet', 'Grilled chicken, tomatoes, spinach, mozzarella & freshbasil.', ''),
-('Johnny Boy (Chicken Alfredo)','gourmet', 'Grilled Chicken, Alfredo sauce, parmesan & mozzarella.', ''),
-('Furio''s (Supreme)','gourmet', 'Pepperoni, sausage, green peppers, onions, mushrooms & mozzarella.', ''),
-('BBQ Grilled Chicken','gourmet', 'Grilled Chicken sauteed in bbq sauce, covered with mozzarella cheese.', ''),
-('Garden Veggies','gourmet', 'Tomatoes, onions, green peppers, mushrooms, black olives, basil & mozzarella.', ''),
-('Carciofi (Artichoke Deluxe','gourmet', 'Artichokes, tomatoes, onions, green peppers, black olives, mozzarella.', ''),
-('Hawaiian (Five-O)','gourmet', 'Ham, pineapple, parmesan, provolone & mozzarella cheese.', ''),
-('Al Capone''s (All Meat)','gourmet', 'Pepperoni, sausage, ham, beef, parmesan & mozzarella.', ''),
-('Tony''s Favorite (Deluxe)','gourmet', 'Pepperoni, ham, sausage, beef, green peppers, onions, black olives, jalapenos, mushrooms Sopranos red sauce, creamy sauce, basil & mozzarella.', ''),
-('Mediterranean','gourmet', 'Tomatoes, mushrooms, spinach, green olives, red onions, Artichoke hearts, feta cheese, olive oil, basil, mozzarella.', '');
+('Margarita','gourmet', 'Olive oil, garlic butter, tomatoes, mozzarella & fresh basil.', 'https://i.imgur.com/HTE8srx.jpg'),
+('Polio''s Classic','gourmet', 'Grilled Chicken, tomatoes, garlic, mozzarella & fresh basil.', 'https://i.imgur.com/MiOZJob.jpg'),
+('Olivia''s Favorite','gourmet', 'Grilled chicken, tomatoes, spinach, mozzarella & freshbasil.', 'https://i.imgur.com/2C1ZiPN.jpg'),
+('Johnny Boy (Chicken Alfredo)','gourmet', 'Grilled Chicken, Alfredo sauce, parmesan & mozzarella.', 'https://i.imgur.com/W2pK5WF.jpg'),
+('Furio''s (Supreme)','gourmet', 'Pepperoni, sausage, green peppers, onions, mushrooms & mozzarella.', 'https://i.imgur.com/37vcUW6.jpg'),
+('BBQ Grilled Chicken','gourmet', 'Grilled Chicken sauteed in bbq sauce, covered with mozzarella cheese.', 'https://i.imgur.com/ePlAgCf.jpg'),
+('Garden Veggies','gourmet', 'Tomatoes, onions, green peppers, mushrooms, black olives, basil & mozzarella.', 'https://i.imgur.com/SfkigYO.jpg'),
+('Carciofi (Artichoke Deluxe)','gourmet', 'Artichokes, tomatoes, onions, green peppers, black olives, mozzarella.', 'https://i.imgur.com/G8VVu5y.jpg'),
+('Hawaiian (Five-O)','gourmet', 'Ham, pineapple, parmesan, provolone & mozzarella cheese.', 'https://i.imgur.com/gfdxJil.jpg'),
+('Al Capone''s (All Meat)','gourmet', 'Pepperoni, sausage, ham, beef, parmesan & mozzarella.', 'https://i.imgur.com/kOiFNcS.jpg'),
+('Tony''s Favorite (Deluxe)','gourmet', 'Pepperoni, ham, sausage, beef, green peppers, onions, black olives, jalapenos, mushrooms Sopranos red sauce, creamy sauce, basil & mozzarella.', 'https://i.imgur.com/s9fL3jP.jpg'),
+('Mediterranean','gourmet', 'Tomatoes, mushrooms, spinach, green olives, red onions, Artichoke hearts, feta cheese, olive oil, basil, mozzarella.', 'https://i.imgur.com/x2FS4SK.jpg');
 
 
 INSERT INTO pasta (title, category, price, ingredients, url)
 VALUES
 ('Lasagna','pasta', '$9.99', 'Cheese, Veggie, or Meat Sauce.', 'https://i.imgur.com/2RVqrKL.jpg'),
-('Cheese or Beef Ravioli','pasta', '$9.99', '', 'https://imgur.com/gallery/oiQNPO1'),
-('Eggplant, Veal or Chicken Parmigiana','pasta', '$9.99', '', ''),
+('Cheese or Beef Ravioli','pasta', '$9.99', '', 'https://i.imgur.com/hGNwY6e.jpg'),
+('Eggplant, Veal or Chicken Parmigiana','pasta', '$9.99', '', 'https://i.imgur.com/JVyZ4KE.jpg'),
 ('Manicotti','pasta', '$9.99', '', 'https://i.imgur.com/v4H0BPV.jpg'),
 ('Cannelloni','pasta', '$9.99', '', 'https://i.imgur.com/gipX1pd.jpg'),
 ('Spaghetti or Fettuccini','pasta', '$9.99', 'Red sauce, Meat Sauce, or Alfredo.', 'https://i.imgur.com/urw9tKt.jpg'),
 ('Fettuccini Chicken Alferdo','pasta', '$9.99', '', 'https://i.imgur.com/6pQyExC.jpg'),
-('Trio Pasta','pasta', '$9.99', 'Manicotti, Lasagna, Cheese or Beef Ravioli.', ''),
+('Trio Pasta','pasta', '$9.99', 'Manicotti, Lasagna, Cheese or Beef Ravioli.', 'https://i.imgur.com/mDINdnq.jpg'),
 ('Baked Ziti','pasta', '$9.99', 'Ricotta, Meat Sauce, Red Sauce, or Alfredo.', 'https://i.imgur.com/TPa1HJj.jpg'),
 ('Linguini Toscana','pasta', '$9.99', 'Grilled chicken, Mushrooms, Spinach, Garlic, Sautéed in a lemon garlic butter sauce.', 'https://i.imgur.com/HL2Widw.jpg'),
 ('Sopranos Murphy Chicken','pasta', '$9.99', 'Chicken, Tomatoes, Mushrooms, Green Peppers, Onions & Penne Pasta.', 'https://i.imgur.com/dPVURU5.jpg'),
-('Chicken Florentines','pasta', '$9.99', 'Grilled Chicken, Tomatoes, Spinach, Mushrooms, Garlic, Sautéed with creamy sauce,Topped with mozzarella, Served with Penne Pasta.', ''),
-('Angel Hair Chicken Mushroom Alfredo','pasta', '$9.99', 'Grilled Chicken, Mushrooms, Sautéed in Alfredo sauce, Mozzarella Cheese.', ''),
-('Chicken Carciofi','pasta', '$9.99', 'Grilled chicken, Artichokes, Sautéed with Soprano’s red & creamy sauce.', '');
+('Chicken Florentines','pasta', '$9.99', 'Grilled Chicken, Tomatoes, Spinach, Mushrooms, Garlic, Sautéed with creamy sauce,Topped with mozzarella, Served with Penne Pasta.', 'https://i.imgur.com/d4bokpY.jpg'),
+('Angel Hair Chicken Mushroom Alfredo','pasta', '$9.99', 'Grilled Chicken, Mushrooms, Sautéed in Alfredo sauce, Mozzarella Cheese.', 'https://i.imgur.com/qTqQRCm.jpg'),
+('Chicken Carciofi','pasta', '$9.99', 'Grilled chicken, Artichokes, Sautéed with Soprano’s red & creamy sauce.', 'https://i.imgur.com/T1QBgre.jpg');
 
 INSERT INTO soups_and_salads (title, category, price, ingredients, url)
 VALUES
-('Soup of the Day - Bowl','soup', '$5.95', '', ''),
-('Garden Salad','salad', '$3.50', '', 'Lettuce, Tomatoes, Green Peppers, Onions & croutons.'),
-('Greek Salad wih Feta Cheese','salad', '$7.99', 'Lettuce (Iceberg or Romaine), Cucumbers, Pepperoncini, Black Olives, Tomatoes, Green Olives, Onions & Feta Cheese.', ''),
-('Caesar Salad','salad', '$6.99', 'Romaine, Tomato, Black Olives, Cucumber & Croutons.', ''),
-('Grill Chicken Caesar Salad','salad', '$8.99', '', ''),
-('Crispy Chicken Salad','salad', '$7.99', 'Lettuce, Tomato, Cucumbers, Onions, Black Olives, & Croutons.', ''),
-('Chef Salad','salad', '$8.99', 'Lettuce, Tomatoes, Onions, Cucumbers, Green Peppers, Black Olives, Ham, Eggs, Cheese & Croutons', '');
+('Soup of the Day - Bowl','soup', '$5.95', '', 'https://i.imgur.com/h6f0Rzc.jpg'),
+('Garden Salad','salad', '$3.50', 'Lettuce, Tomatoes, Green Peppers, Onions & croutons.', 'https://i.imgur.com/asz0Jjd.jpg'),
+('Greek Salad wih Feta Cheese','salad', '$7.99', 'Lettuce (Iceberg or Romaine), Cucumbers, Pepperoncini, Black Olives, Tomatoes, Green Olives, Onions & Feta Cheese.', 'https://i.imgur.com/uilj0PT.jpg'),
+('Caesar Salad','salad', '$6.99', 'Romaine, Tomato, Black Olives, Cucumber & Croutons.', 'https://i.imgur.com/FDypjf5.jpg'),
+('Grill Chicken Caesar Salad','salad', '$8.99', '', 'https://i.imgur.com/LZrCTEY.jpg'),
+('Crispy Chicken Salad','salad', '$7.99', 'Lettuce, Tomato, Cucumbers, Onions, Black Olives, & Croutons.', 'https://i.imgur.com/0Osfxbs.jpg'),
+('Chef Salad','salad', '$8.99', 'Lettuce, Tomatoes, Onions, Cucumbers, Green Peppers, Black Olives, Ham, Eggs, Cheese & Croutons', 'https://i.imgur.com/SrguvMX.jpg');
 
 INSERT INTO subs (title, category, price, ingredients, url)
 VALUES
@@ -47,12 +47,12 @@ VALUES
 ('*2. - Submarine Sub','sub', '$7.99', 'Pepperoni, Ham.', 'https://i.imgur.com/9QcsPWa.jpg'),
 ('*3. - Deluxe','sub', '$7.99', 'Pepperoni, Ham, Mushrooms.', 'https://i.imgur.com/SnRZaw0.jpg'),
 ('*4. - Combo Meat','sub', '$7.99', 'Ham, Pepperoni, Beef & Sausage.', 'https://i.imgur.com/EZgd35R.jpg'),
-('*5. - Turkey Sub','sub', '$7.99', '', ''),
-('*6. - Grilled Chicken Sub','sub', '$7.99', '', ''),
-('*7. - Veggie Sub','sub', '$7.99', 'Black olives, Green olives, Tomatoes, Mushrooms, Green Peppers, Onions.', ''),
-('8. - Eggplant or Chicken or Veal Parmesan','sub', '$7.99', 'Covered with Soprano''s red sauce and mozzarella.', ''),
-('9. - Meatball Cheese Sub','sub', '$7.99', 'Covered with Soprano''s red sauce and mozzarella.', ''),
-('10. - Philly Cheese Steak Sub','sub', '$7.99', 'Green peppers, Onions & Mushrooms.', '');
+('*5. - Turkey Sub','sub', '$7.99', '', 'https://i.imgur.com/bc0UydV.jpg'),
+('*6. - Grilled Chicken Sub','sub', '$7.99', '', 'https://i.imgur.com/P7j5zNB.jpg'),
+('*7. - Veggie Sub','sub', '$7.99', 'Black olives, Green olives, Tomatoes, Mushrooms, Green Peppers, Onions.', 'https://i.imgur.com/fG1EArt.jpg'),
+('8. - Eggplant or Chicken or Veal Parmesan','sub', '$7.99', 'Covered with Soprano''s red sauce and mozzarella.', 'https://i.imgur.com/O2tqq8D.jpg'),
+('9. - Meatball Cheese Sub','sub', '$7.99', 'Covered with Soprano''s red sauce and mozzarella.', 'https://i.imgur.com/fX266HN.jpg'),
+('10. - Philly Cheese Steak Sub','sub', '$7.99', 'Green peppers, Onions & Mushrooms.', 'https://i.imgur.com/3NLZp8j.jpg');
 
 INSERT INTO wings_and_things (title, category, url)
 VALUES
