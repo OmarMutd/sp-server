@@ -13,3 +13,15 @@ Later:
   Add actual google maps
   is-loading symbol when data is being fetched from the sever
   make side menu look better
+  active menu: https://stackoverflow.com/questions/42297728/react-js-implement-menu-highlight-active-link
+
+  // app.use(function validateBearerToken(req, res, next) {
+//   const apiToken = process.env.API_TOKEN
+//   const authToken = req.get('Authorization')
+
+//   if (!authToken || authToken.split(' ')[1] !== apiToken) {
+//     return res.status(401).json({ error: 'Unauthorized request' })
+//   }
+//   // move to the next middleware
+//   next()
+// })
