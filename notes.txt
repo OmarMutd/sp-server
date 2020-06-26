@@ -5,3 +5,11 @@ VALUES
   ('Medium','Pizza Your Way', ''),
   ('Large','Pizza Your Way',  ''),
   ('Giant','Pizza Your Way',  '');
+
+Later:
+
+  Change size of menu back button
+  Add a react-scroll to bottom
+  Add actual google maps
+  is-loading symbol when data is being fetched from the sever
+  make side menu look better
